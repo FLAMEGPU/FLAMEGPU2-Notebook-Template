@@ -14,12 +14,11 @@ You can launch the notebook in Colab using the link below. Some additional steps
 
 ### Running this Template Locally
 
-> **Note**: The notebook currently assumes you are using python 3.6, with CUDA 11.0 on a Linux x86_64 machine. This will be corrected in the future.
-
 To run this template locally you will require:
 
 + Python `>= 3.10`
-+ CUDA `>= 13.0` and a [Compute Capability](https://developer.nvidia.com/cuda-gpus) >= 5.0 NVIDIA GPU (note you can use CUDA 12.0+ but will need to modify the extra-index-url in the notebook)
++ CUDA `>= 13.0` and a [Compute Capability](https://developer.nvidia.com/cuda-gpus) >= 7.5 NVIDIA GPU
+  + Note: you can use CUDA 12.0+ with a Compute Capability >= 5.2 NVIDIA GPU, but will need to modify the extra-index-url in the notebook
 + Linux with `glibc >= 2.28`
   + Windows support/instructions will be introduced at a later date
 + An `x86_64` CPU
